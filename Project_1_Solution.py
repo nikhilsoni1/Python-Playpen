@@ -1,4 +1,4 @@
-#   Problem Generator, ignore this code block.
+#   Problem Generator, ignore this code block. DO NOT MODIFY.
 import random
 import string
 random.seed(9)
@@ -28,7 +28,7 @@ class Problem:
 
 
 _GENERATOR = Problem()
-#   Problem Generator, ignore this code block.
+#   Problem Generator, ignore this code block. DO NOT MODIFY.
 
 data = _GENERATOR.CASES #   This line of code generates the data for the problem. Further, you may be asked to reset
                         #   reset the data. At that point just copy and paste this line.
@@ -75,7 +75,7 @@ print(data[9] == data[10])
 
 #   Problem 6). Check whether "_RANDOM_STRING is contained in the list. Print the "Yes" if it is, otherwise print No.
 #   Hint: Refer the Concept 1: if-else statement structure and bullet Point 1.3
-_RANDOM_STRING = random.choice(data)
+_RANDOM_STRING = random.choice(data)    #   Do not Modify
 
 if _RANDOM_STRING in data:
     print("Yes")
@@ -115,8 +115,7 @@ for i in range(data_length):
 
 #   Problem 10). Print all the elements of the variable "data" using the iteration method.
 #   Hint: Use concept 4
-
-print("------") #   Ignore
+print("------") #   Ignore, write your code after this line
 
 for i in data:
     print(i)
