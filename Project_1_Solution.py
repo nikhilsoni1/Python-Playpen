@@ -30,7 +30,21 @@ class Problem:
 _GENERATOR = Problem()
 #   Problem Generator, ignore this code block.
 
-data = _GENERATOR.CASES #   This line of code generates the data for the problem. Furhter, you may be asked to reset
+data = _GENERATOR.CASES #   This line of code generates the data for the problem. Further, you may be asked to reset
                         #   reset the data. At that point just copy and paste this line.
+
+#   Problem 1). Find the type of the variable "data" and store it in a variable called "data_type". Print "data_type".
+#   Hint: type(<variable name>) returns the type of the variable.
+
+data_type = type(data)
+print(data_type)
+
+#   Problem 2). Find the length of the variable "data" and store it in a variable called "data_length".
+#               Print "data_length".
+#               Hint: len(<variable name>) returns the length of the variable
+
+data_length = len(data)
+print(data_length)
+
 
 
