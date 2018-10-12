@@ -46,5 +46,21 @@ print(data_type)
 data_length = len(data)
 print(data_length)
 
+#   Problem 3). Print the 10th element of the variable "data".
+#   Hint: Use list subset, <list>[x]
+
+print(data[9])
+
+#   Problem 4). Print the 10th index of the variable "data"
+#   Hint: Use list subset, <list>[x]
+
+print(data[10])
+
+#   Problem 5). Are the values from the previous two questions the same? Use an if statement to print the answer.
+
+print(data[9] == data[10])
+#   Takeaway: A list is indexed from 0 to N-1 in the computer, N being the number of elements in the list. Mth element
+#   just means the Mth element from the starting of the list. Mth Element = M-1th Index
+
 
 
