@@ -1,4 +1,4 @@
-#   Problem Generator, ignore this code block. DO NOT MODIFY.
+#   Problem Generator, ignore this code block.
 import random
 import string
 random.seed(9)
@@ -28,7 +28,7 @@ class Problem:
 
 
 _GENERATOR = Problem()
-#   Problem Generator, ignore this code block. DO NOT MODIFY.
+#   Problem Generator, ignore this code block.
 
 data = _GENERATOR.CASES #   This line of code generates the data for the problem. Further, you may be asked to reset
                         #   reset the data. At that point just copy and paste this line.
@@ -36,31 +36,30 @@ data = _GENERATOR.CASES #   This line of code generates the data for the problem
 #   Problem 1). Find the type of the variable "data" and store it in a variable called "data_type". Print "data_type".
 #   Hint: type(<variable name>) returns the type of the variable.
 
-data_type = type(data)
-print(data_type)
+
+
 
 #   Problem 2). Find the length of the variable "data" and store it in a variable called "data_length".
 #               Print "data_length".
 #               Hint: len(<variable name>) returns the length of the variable
 
-data_length = len(data)
-print(data_length)
+
+
 
 #   Problem 3). Print the 10th element of the variable "data".
 #   Hint: Use list subset, <list>[x]
 
-print(data[9])
+
 
 #   Problem 4). Print the 10th index of the variable "data"
 #   Hint: Use list subset, <list>[x]
 
-print(data[10])
+
 
 #   Problem 5). Are the values from the previous two questions the same? Use an if statement to print the answer.
 
-print(data[9] == data[10])
-#   Takeaway: A list is indexed from 0 to N-1 in the computer, N being the number of elements in the list. Mth element
-#   just means the Mth element from the starting of the list. Mth Element = M-1th Index
+
+
 
 
 #   Concept 1 : if-else conditional statement
@@ -75,12 +74,10 @@ print(data[9] == data[10])
 
 #   Problem 6). Check whether "_RANDOM_STRING is contained in the list. Print the "Yes" if it is, otherwise print No.
 #   Hint: Refer the Concept 1: if-else statement structure and bullet Point 1.3
-_RANDOM_STRING = random.choice(data)    #   Do not Modify
+_RANDOM_STRING = random.choice(data)    #   Do not modify
 
-if _RANDOM_STRING in data:
-    print("Yes")
-else:
-    print("No")
+
+
 
 #   Concept 2 : range(x)
 #   The above statement specifies a progression from "0" to "x-1", 1 step at a time.
@@ -88,8 +85,8 @@ else:
 #   have the same number of elements.
 
 #   Problem 7). Print range(4)
-print(range(4))
-#   This just specifies a progression from "0" to "3"
+
+
 
 #   Concept 3 : for-loop:
 #   for i in range(x>):
@@ -99,14 +96,14 @@ print(range(4))
 #   Problem 8). Using for-loop print numbers from 0 to 3.
 #   Hint: Use concept 2 and 3
 
-for i in range(4):
-    print(i)
+
+
 
 #   Problem 9). Print all the elements contained in the variable "data".
 #   Hint: use concept 2 and 3, data_length and <list[i]>
 
-for i in range(data_length):
-    print(data[i])
+
+
 
 #   Concept 4: List iteration
 #   for i in <list>:
@@ -117,5 +114,3 @@ for i in range(data_length):
 #   Hint: Use concept 4
 print("------") #   Ignore, write your code after this line
 
-for i in data:
-    print(i)
